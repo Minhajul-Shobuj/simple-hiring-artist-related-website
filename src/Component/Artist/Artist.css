@@ -1,0 +1,24 @@
+.artist{
+ background: linear-gradient(#e66465, #9198e5);
+height: 400px;
+width: 300px;
+border: 2px solid red;
+border-radius: 20px;
+padding: 10px;
+box-shadow: rosybrown;
+}
+.artist img{
+    height: 40%;
+    width: 80%;
+}
+.added-btn{
+    padding: 5px;
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: medium;
+background-color: palegreen;
+color: darkslategray;
+}
