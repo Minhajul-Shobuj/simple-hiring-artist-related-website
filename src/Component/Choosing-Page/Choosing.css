@@ -1,7 +1,8 @@
+/* css for display page */
 .choosing-page{
     display: grid;
     grid-template-columns: 3fr 1fr;
-    margin-left: 10px;
+    margin-left: 80px;
 }
 .artists{
     display: grid;

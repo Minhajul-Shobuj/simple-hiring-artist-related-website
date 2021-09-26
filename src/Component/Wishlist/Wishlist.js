@@ -2,6 +2,7 @@ import React from 'react';
 import './Wishlist.css'
 
 const Wishlist = (props) => {
+    // setting name and quantity;
     const cart = props.cart;
     let name = '';
     let demand = 0;
@@ -15,6 +16,7 @@ const Wishlist = (props) => {
 
     }
     return (
+        // wish list section;
         <div className="wishlist">
             <h3>Whislist</h3><hr />
             <p>Added Artist: <span>{addedArtist}</span></p>

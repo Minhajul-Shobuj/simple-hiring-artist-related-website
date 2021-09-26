@@ -4,6 +4,7 @@ import Wishlist from '../Wishlist/Wishlist';
 import './Choosing.css'
 
 const Choosing = () => {
+    // for loading data and showing on the page;
     const [cart, setCart] = useState([]);
     const [artists, setArtist] = useState([]);
     useEffect(() => {

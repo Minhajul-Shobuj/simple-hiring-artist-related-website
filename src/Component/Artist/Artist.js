@@ -4,6 +4,7 @@ import { faIdCardAlt } from '@fortawesome/free-solid-svg-icons'
 import './Artist.css'
 
 const Artist = (props) => {
+    // for set data on a single card
     const { img, name, Demand, age, profession, country } = props.artist;
     const element = <FontAwesomeIcon icon={faIdCardAlt} />
     return (
