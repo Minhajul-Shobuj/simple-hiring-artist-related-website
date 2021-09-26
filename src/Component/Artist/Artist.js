@@ -2,7 +2,6 @@ import React from 'react';
 import './Artist.css'
 
 const Artist = (props) => {
-    console.log(props);
     const { img, name, Demand, age, profession, country } = props.artist;
     return (
         <div className="artist">

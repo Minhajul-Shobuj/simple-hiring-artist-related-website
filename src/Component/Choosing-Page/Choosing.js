@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Artist from '../Artist/Artist';
+import Wishlist from '../Wishlist/Wishlist';
 import './Choosing.css'
 
 const Choosing = () => {
@@ -9,7 +10,8 @@ const Choosing = () => {
         fetch('./artists.JSON').then(res => res.json()).then(data => setArtist(data));
     }, []);
     const addToWishlist = (artist) => {
-        console.log(artist);
+        const newCart = [...cart, artist];
+        setCart(newCart);
     }
     return (
         <div className="choosing-page">
@@ -19,9 +21,7 @@ const Choosing = () => {
                 }
             </div>
             <div>
-                <h3>Whislist</h3>
-                <p> Artist name:</p>
-                <p> Artist demend:</p>
+                <Wishlist cart={cart}></Wishlist>
             </div>
         </div>
     );
