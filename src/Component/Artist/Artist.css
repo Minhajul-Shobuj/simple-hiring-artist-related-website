@@ -15,7 +15,7 @@ color: darkblue;
     color: palegreen;
     margin-right:10px ;
 }
-.abc{
+.intro{
     text-align: start;
 }
 .artist img{
@@ -32,5 +32,4 @@ font-weight: bolder;
 font-size: medium;
 background-color: palegreen;
 color: darkslategray;
-text-align: center;
 }

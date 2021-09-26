@@ -9,7 +9,7 @@ const Artist = (props) => {
     return (
         <div className="artist">
             <img src={img} alt="" />
-            <div className="abc">
+            <div className="intro">
                 <h4><span>Name:</span> {name}</h4>
                 <p><span>Country:</span> {country}</p>
                 <p><span>Age:</span> {age}</p>
