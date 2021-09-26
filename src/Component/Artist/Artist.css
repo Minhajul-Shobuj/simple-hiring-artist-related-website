@@ -1,5 +1,5 @@
 .artist{
- background: linear-gradient(#e66465, #9198e5);
+background: linear-gradient(#e66465, #9198e5);
 height: 400px;
 width: 300px;
 border: 2px solid red;
@@ -9,7 +9,14 @@ box-shadow: rosybrown;
 font-family:monospace;
 font-weight: bolder;
 font-size: larger;
- color: darkblue;
+color: darkblue;
+}
+.artist span{
+    color: palegreen;
+    margin-right:10px ;
+}
+.abc{
+    text-align: start;
 }
 .artist img{
     height: 40%;
@@ -17,13 +24,13 @@ font-size: larger;
     border-radius: 400px;
 }
 .added-btn{
-    padding: 5px;
-    height: 30px;
-    width: 150px;
-    border-radius: 10px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bolder;
-    font-size: medium;
+height: 30px;
+width: 200px;
+border-radius: 10px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: bolder;
+font-size: medium;
 background-color: palegreen;
 color: darkslategray;
+text-align: center;
 }

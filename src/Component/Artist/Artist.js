@@ -1,19 +1,22 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faIdCardAlt } from '@fortawesome/free-solid-svg-icons'
 import './Artist.css'
 
 const Artist = (props) => {
     const { img, name, Demand, age, profession, country } = props.artist;
+    const element = <FontAwesomeIcon icon={faIdCardAlt} />
     return (
         <div className="artist">
             <img src={img} alt="" />
-            <div>
-                <h4>Name: {name}</h4>
-                <p>Country: {country}</p>
-                <p>Age: {age}</p>
-                <p>Profession: {profession}
+            <div className="abc">
+                <h4><span>Name:</span> {name}</h4>
+                <p><span>Country:</span> {country}</p>
+                <p><span>Age:</span> {age}</p>
+                <p><span>Profession:</span> {profession}
                 </p>
-                <p>Demand: {Demand}TK</p>
-                <button onClick={() => props.addToWishlist(props.artist)} className="added-btn">Add to wishList</button>
+                <p><span>Demand:</span> {Demand}TK</p>
+                <button onClick={() => props.addToWishlist(props.artist)} className="added-btn">{element} Add to wishList</button>
             </div>
         </div>
     );
