@@ -17,9 +17,9 @@ const Wishlist = (props) => {
     return (
         <div className="wishlist">
             <h3>Whislist</h3><hr />
-            <p>Added Artist: {addedArtist}</p>
-            <ul> Artist name: <li>{name}</li> </ul>
-            <p>Total of Artist demend:  {demand}Tk</p>
+            <p>Added Artist: <span>{addedArtist}</span></p>
+            <p> Artist name: <span>{name}</span> </p>
+            <p>Total of Artist demend:  <span>{demand}Tk</span></p>
         </div>
     );
 };

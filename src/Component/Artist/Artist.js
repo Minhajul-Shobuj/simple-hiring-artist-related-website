@@ -7,12 +7,12 @@ const Artist = (props) => {
         <div className="artist">
             <img src={img} alt="" />
             <div>
-                <h4>Name:{name}</h4>
-                <p>Country:{country}</p>
-                <p>Age:{age}</p>
-                <p>Profession:{profession}
+                <h4>Name: {name}</h4>
+                <p>Country: {country}</p>
+                <p>Age: {age}</p>
+                <p>Profession: {profession}
                 </p>
-                <p>Demand:{Demand}</p>
+                <p>Demand: {Demand}TK</p>
                 <button onClick={() => props.addToWishlist(props.artist)} className="added-btn">Add to wishList</button>
             </div>
         </div>

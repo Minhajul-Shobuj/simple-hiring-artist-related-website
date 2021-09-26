@@ -1,5 +1,14 @@
 .wishlist{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bolder;
+    font-size: larger;
+    color: deepskyblue;
+}
+.wishlist span{
     font-size: large;
+    color: darkblue;
+    font-weight: bolder;
+}
+.wishlist p{
+    color: darkorange;
 }

@@ -6,10 +6,15 @@ border: 2px solid red;
 border-radius: 20px;
 padding: 10px;
 box-shadow: rosybrown;
+font-family:monospace;
+font-weight: bolder;
+font-size: larger;
+ color: darkblue;
 }
 .artist img{
     height: 40%;
     width: 80%;
+    border-radius: 400px;
 }
 .added-btn{
     padding: 5px;
